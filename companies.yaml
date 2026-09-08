@@ -1,0 +1,31 @@
+# The companies to track. Add as many as you like.
+#
+# Each entry needs:
+#   name: display name (anything you want)
+#   ats:  which scraper handles it — one of: greenhouse, lever, ashby, cabify
+#   slug: the identifier in the ATS URL (NOT needed for custom sites like cabify)
+#
+# To find a slug: open the company's careers page, and look at the jobs API URL
+# in DevTools. e.g. boards-api.greenhouse.io/v1/boards/STRIPE/jobs  ->  slug: stripe
+
+- name: Cabify
+  ats: cabify
+
+- name: Join
+  ats: join
+  extra:
+    headers:
+      access-token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXR0aW5ncyI6eyJzaG93Q2F0ZWdvcnlGaWx0ZXIiOmZhbHNlLCJzaG93TG9jYXRpb25GaWx0ZXIiOmZhbHNlLCJzaG93RW1wbG95bWVudFR5cGVGaWx0ZXIiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwiam9ic1BlclBhZ2UiOjI1fSwiam9icyI6e30sImRlc2lnbiI6eyJzaG93TG9nbyI6ZmFsc2UsInNob3dMb2NhdGlvbiI6dHJ1ZSwic2hvd0VtcGxveW1lbnRUeXBlIjp0cnVlLCJzaG93Q2F0ZWdvcnkiOmZhbHNlLCJjb2xvcnMiOnsid2lkZ2V0Ijp7ImJhY2tncm91bmQiOiIjRkZGRkZGIiwiZmlsdGVyQm9yZGVyIjoiI0Q0RDREOCIsInBhZ2luYXRpb24iOiIjMjU2M0VCIn0sImpvYkNhcmQiOnsic2hhZG93IjoiI0Q0RDREOCIsImJhY2tncm91bmQiOiIjRkZGRkZGIiwicHJpbWFyeVRleHQiOiIjM0YzRjQ2Iiwic2Vjb25kYXJ5VGV4dCI6IiM1MjUyNUIifX19LCJ2ZXJzaW9uIjoyLCJjb21wYW55UHVibGljSWQiOiJlZmE2MGZiOTk1ZTMyNTA5ZWQ1YTY0MmMxOTQzZmFmYyIsImlhdCI6MTc4MjUwNTUxOSwianRpIjoiZThjYjRkM2MtN2U3NS00ZGJmLTgzM2ItODc2MWY1YWExZTIxIn0.LCoJvltYIeGl7AHcOC9piFoN744xneymVzAf-x5ExtQ"
+
+- name: Buffer
+  ats: buffer
+
+- name: Alan
+  ats: ashby
+  slug: alan
+
+- name: Factorial
+  ats: factorial
+
+- name: Revolut
+  ats: revolut
