@@ -29,3 +29,47 @@
 
 - name: Revolut
   ats: revolut
+
+- name: N26
+  ats: greenhouse
+  slug: n26
+
+- name: Coinbase
+  ats: greenhouse
+  slug: coinbase
+
+- name: Stripe
+  ats: greenhouse
+  slug: stripe
+
+- name: Wise
+  ats: greenhouse
+  slug: wise
+
+- name: SumUp
+  ats: greenhouse
+  slug: sumup
+
+- name: Wolt
+  ats: greenhouse
+  slug: wolt
+
+- name: GetYourGuide
+  ats: greenhouse
+  slug: getyourguide
+
+- name: Canonical
+  ats: greenhouse
+  slug: canonical
+
+- name: GitLab
+  ats: greenhouse
+  slug: gitlab
+
+- name: Elastic
+  ats: greenhouse
+  slug: elastic
+
+- name: JetBrains
+  ats: greenhouse
+  slug: jetbrains
